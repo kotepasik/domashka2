@@ -1,2 +1,18 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// 1. Напишите программу, которая на вход принимает два чила и выдаёт, какое число большее, а какое меньшее
+
+int n = new Random().Next(0, 100); 
+int m = new Random().Next(0, 100); 
+Console.WriteLine($"Сравниваем число {n} с числом {m}");
+if (n > m)
+{
+    Console.WriteLine($"Число {n} большее, а число {m} меньшее");
+}
+else 
+{
+    Console.WriteLine($"Число {m} большее, а  число {n} меньшее"); 
+}
+
+
+
+
+// 2. Напишите программу , колторая принимает на вход три числа и выдаёт максимальное из этих чисел
